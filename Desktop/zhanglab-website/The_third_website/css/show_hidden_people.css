@@ -1,0 +1,24 @@
+.white_content {
+  display: none;
+  position: sticky;
+  bottom: 10%;
+  left: 20%;
+  width: 60%;
+  padding: 25px;
+  border-radius: 15px;
+  border: 5px solid grey;
+  background-color: white;
+  z-index: 1002;
+  overflow: auto;
+  font-size: 20px;
+  line-height: 30px;
+}
+.white_content a {
+  display: block;
+  width: 100%;
+  font-weight: bolder;
+  text-align: center;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}

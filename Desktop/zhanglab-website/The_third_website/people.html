@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>People</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/nav-bg-title.css">
+    <link rel="stylesheet" href="./css/people.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./css/show_hidden_people.css">
+</head>
+
+<body>
+    <!-- 创建导航条容器 -->
+    <div class="nav-wrapper">
+        <!-- 创建导航条 -->
+        <div class="nav">
+            <!-- 创建左侧菜单 -->
+            <div class="left-menu">
+                <div class="left-menu-logo">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                </div>
+                <div class="left-menu-hidden">
+                    <ul class="left-menu-hidden-wrapper">
+                        <li><a href="/">
+                                <i class="fas fa-home"></i>Home</a></li>
+                        <li><a href="newsandevents.html"><i class="fas fa-graduation-cap"></i> News and Events</a></li>
+                        <li><a href="#"><i class="fas fa-user-tie"></i>People</a></li>
+                        <li><a href="pubulications.html"><i class="fas fa-book"></i>Publications</a></li>
+                        <li><a href="careers.html"><i class="fas fa-user-plus"></i>Careers</a></li>
+                        <li><a href="contact.html"><i class="fas fa-map-marker-alt"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 创建中间的logo -->
+            <div class="logo-wrapper">
+                <div><a href="index.html"><img src="./logo/logo.png" id="zn-head"></a></div>
+                <!-- <div><a href="index.html" id="title"><span>ZhangLab</span></a></div> -->
+            </div>
+            <!-- 创建右边的搜索框 -->
+            <div class="search-wrapper">
+                <a href="#"><i class="fab fa-github"></i></a>
+
+            </div>
+            <!-- nav -->
+        </div>
+
+    </div>
+    <div class="title">
+        <h1>People</h1>
+        <!-- <h2>There isn't a perfect man, but a team</h2> -->
+    </div>
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Principle Investigator</div>
+        </div>
+    </div>
+    <!-- 创建大容器 -->
+    <div class="head-master">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(zhangning)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/张宁.png">
+                </div>
+                <div class="name">张宁 教授</div>
+            </div>
+        </a> 
+        <div class="introduct">
+            约翰霍普金斯大学医学院获得博士学位，在NIH完成CRTA的博士后训练，现任北京大学教授。<br>
+            长期从事肿瘤基础和应用研究。学术研究获得国内外同行的认可，在Science、Cancer Cell、Gastroenterology、Hepatology、JCI、ACS Nano, Genome Research、Nature Communication、PNAS等杂志发表学术论文112篇。 文章入选细胞出版社2019中国年度论文。 <br>
+
+            入选国家“万人计划”、 获得国家杰出青年科学基金支持。《Cancer Biology & Medicine》常务副主编。长期获得国家自然基金委、科技部的科研项目支持。<br>
+        </div>
+    </div>
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Scientists</div>
+        </div>
+    </div>
+
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(liurong)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/刘蓉.png">
+                </div>
+                <div class="name">刘蓉 研究员</div>
+            </div>
+        </a>
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(kongruirui)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/孔瑞瑞.png">
+                </div>
+                <div class="name">孔瑞瑞 副研究员</div>
+            </div>
+        </a>
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;"  onclick="show_hidden(xueruidong)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/薛瑞栋.png">
+                </div>
+                <div class="name">薛瑞栋 副研究员</div>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Postdoctoral Researchers</div>
+        </div>
+    </div>
+    <!-- 第二行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(yanghui)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/杨慧.png">
+                </div>
+                <div class="name">杨慧</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Lab Manager</div>
+        </div>
+    </div>
+    <!-- 第二行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(haotingting)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/郝婷婷.png">
+                </div>
+                <div class="name">郝婷婷</div>
+            </div>
+        </a>
+    </div>
+
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Postgraduate Students</div>
+        </div>
+    </div>
+
+    <!-- 第二行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(caoqi)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/曹琦.png">
+                </div>
+                <div class="name">曹奇</div>
+            </div>
+        </a>
+        <a class="card-a" href="javascript:;" onclick="show_hidden(chenxuechun)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/陈雪纯.png">
+                </div>
+                <div class="name">陈雪纯</div>
+            </div>
+        </a>
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(yanshuai)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/严帅.png">
+                </div>
+                <div class="name">严帅</div>
+            </div>
+        </a>
+    </div>
+
+
+
+    <!-- 第三行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;"  onclick="show_hidden(liuhengkang)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/刘恒康.png">
+                </div>
+                <div class="name">刘恒康</div>
+            </div>
+        </a>
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(chengjinhui)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/程景辉.png">
+                </div>
+                <div class="name">程景辉</div>
+            </div>
+        </a>
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(fengmei)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/冯梅.png">
+                </div>
+                <div class="name">冯梅</div>
+            </div>
+        </a>
+
+    </div>
+
+
+
+
+
+    <!-- 第四行人物容器 -->
+    <div class="scientists">
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(liuxinyu)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/刘鑫钰.png">
+                </div>
+                <div class="name">刘鑫钰</div>
+            </div>
+        </a>
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(wangfangyanni)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/王方燕妮.png">
+                </div>
+                <div class="name">王方燕妮</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Undergraduate Students</div>
+        </div>
+    </div>
+
+    <!-- 第四行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(wangyinuo)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/汪一诺 照片.png">
+                </div>
+                <div class="name">汪一诺</div>
+            </div>
+        </a>
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(tianliangliang)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/田亮亮.png">
+                </div>
+                <div class="name">田亮亮</div>
+            </div>
+        </a>
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(lijiaxin)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/李嘉欣.png">
+                </div>
+                <div class="name">李嘉欣</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- 第五行人物容器 -->
+    <div class="scientists">
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(tangzongli)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/唐宗立.png">
+                </div>
+                <div class="name">唐宗立</div>
+            </div>
+        </a>
+
+        <!-- 创建超链接 -->
+        <a class="card-a" href="javascript:;" onclick="show_hidden(changyiyuan)">
+            <!-- 创建名片容器 -->
+            <div class="card">
+                <!-- 创建照片容器 -->
+                <div class="photo-wrapper">
+                    <img class="people-photo" src="./people/photo/常沂源.png">
+                </div>
+                <div class="name">常沂源</div>
+            </div>
+        </a>
+    </div>
+
+    <div class="subtitle">
+        <div class="subtitle-wrapper">
+            <div class="subtitle-title">Our Team</div>
+        </div>
+    </div>
+
+    <!-- 第六行人物容器 ：合照 -->
+    <div class="group_photo">
+        <img src="./images/cube/box1.png" class="groupphoto">
+    </div>
+    <!-- 创建每个人的专栏 -->
+
+    <div id="zhangning" class="white_content">
+        约翰霍普金斯大学医学院获得博士学位，在NIH完成CRTA的博士后训练，现任北京大学教授。长期从事肿瘤基础和应用研究。学术研究获得国内外同行的认可，在Science、Cancer Cell、Gastroenterology、Hepatology、JCI、ACS Nano, Genome Research、Nature Communication、PNAS等杂志发表学术论文112篇。 文章入选细胞出版社2019中国年度论文。 
+        入选国家“万人计划”、 获得国家杰出青年科学基金支持。《Cancer Biology & Medicine》常务副主编。长期获得国家自然基金委、科技部的科研项目支持。<br><br>
+        近5年与本研究相关的代表性文章<br>
+        Xue R#, Chen L#, Zhang C#, …Zeng M*, Bai F*, Zhang N*. Genomic and transcriptomic profiling of combined hepatocellular and intrahepatic cholangiocarcinoma reveals distinct molecular subtypes. Cancer Cell. 2019 Jun 10;35(6):932-947.<br>
+        Gao Y, Ni X, Guo H, Su Z, Ba Y, Tong Z, Guo Z, Yao X, Chen X, Yin J, Yan Z, Guo L, Liu Y, Bai F, Xie XS, Zhang N*. Single-cell sequencing deciphers a convergent evolution of copy number alterations from primary to circulating tumour cells. Genome Res. 2017 May 9<br>
+        Wang C, Li Y,  Yan S, Wang H, Shao X, Xiao M, Yang B, Qin G, Kong R, Chen R*, and Zhang N*. Interactome Analysis Reveals that LncRNA HULC Promotes Aerobic Glycolysis through LDHA and PKM2. Nature Communications, 2020. <br>
+        <a href="javascript:;" onclick="hidden_person(zhangning)">Close</a>
+      </div> 
+
+    <div id="liurong" class="white_content"> 
+        医科院肿瘤研究所大学获得博士学位，现任北京大学第一医院研究员。长期从事基础肿瘤生物学和抗癌药物研究。学术研究获得国内外同行的认可，在Science, Journal of Clinical Investigation、Cancer Research、Oncogene等杂志发表学术论文30余篇。
+        获得国家自然科学基金委“优青”项目、中科院“卓越青年科学家”等；主持国家自然科学基金委面上项目等。<br><br>
+        近5年与本研究相关的代表性文章<br>
+        Rong Liu*, Peiguo Shi, Zhongmei Zhou, Hailin Zhang, Wei Li, Hong Zhang, and Ceshi Chen*, Krüpple-like factor 5 is essential for mammary gland development and tumorigenesis, J Pathol, 2018 Dec, 246(4):497-507<br>
+        uqi Lin, Rong Liu,* Ping Zhao, Zheng Zheng, Jingan Huang, Yingying Zhang, Yu Gao, Haiying Chen, Suling Liu, Jia Zhou,* Ceshi Chen,* Haijun Chen*, Discovery of Novel Mifepristone Derivatives via Suppressing KLF5 Expression for the Treatment of Triple-Negative Breast Cancer, Eur J Med Che, 2018 Feb 25;146:354-367.<br>
+        <a href="javascript:;" onclick="hidden_person(liurong)">Close</a>
+    </div>
+    <div id="kongruirui" class="white_content"> 
+        北京大学肿瘤学院获得博士学位，在中国科学院生物物理研究所任副研究员，现任北京大学第一医院副研究员。长期从事从事分子生物学和肿瘤生物学的机制研究。学术研究获得国内外同行的认可，以共同第一作者/通讯作者发表论文 8 篇，其中包括 Journal of Clinical Investigation 等学术期刊，申请 1项专利。
+        主持多项国家自然科学和北京市自然科学基金等项目。<br><br>
+        近5年与本研究相关的代表性文章<br>
+        Wang C, Li Y,  Yan S, Wang H, Shao X, Xiao M, Yang B, Qin G, Kong R, Chen R*, and Zhang N*. Interactome Analysis Reveals that LncRNA HULC Promotes Aerobic Glycolysis through LDHA and PKM2. Nature Communications, 2020. <br>
+        Dong X, Feng M, Yang H, Liu H, Guo H, Gao X, Liu Y, Liu R, Zhang N, Chen R, Kong R*. Rictor promotes cell migration and actin polymerization through regulating ABLIM1 phosphorylation in Hepatocellular Carcinoma. Int J Biol Sci. 2020 <br>
+        Chen X, Fan Z, McGee W, Chen M, Kong R, Wen P, Xiao T, Chen X, Liu J, Zhu L, Chen R, Wu JY. TDP-43 regulates cancer-associated microRNAs. Protein Cell. 2018
+        <a href="javascript:;" onclick="hidden_person(kongruirui)">Close</a>
+    </div>
+    <div id="xueruidong" class="white_content"> 
+        北京大学生命科学学院获得博士学位，现任北京大学第一医院副研究员。一直致力于利用先进的基因组/单细胞测序技术和生物信息学分析方法探究肿瘤的发生发展过程。学术研究获得国内外同行的认可，在肝癌异质性和克隆演化领域取得了一系列科研成果，以共同第一作者/通讯作者发表论文9 篇，其中包括 Cancer Cell，Gastroenterology，Nature Communications，Thorax 等知名学术期刊，同时得到 Nature Reviews Gastroenterology & Hepatology, Cell 等重要杂志的特别评述和关注，研究论文入选“细胞出版社 2019 中国年度论文”。
+        多次在国际会议做口头汇报，曾获国际肿瘤转移协会 Young Investigator 奖，北大医院科研希望之星，主持和参与多项国家自然科学和科技部基金。<br><br>
+        近5年与本研究相关的代表性文章<br>
+        Xue R#, Chen L#, Zhang C#, …Zeng M*, Bai F*, Zhang N*. Genomic and transcriptomic profiling of combined hepatocellular and intrahepatic cholangiocarcinoma reveals distinct molecular subtypes. Cancer Cell. 2019 Jun 10;35(6):932-947. <br>
+        Zhang C#, Zhang L#, Xu T#, Xue R#, Yu L#, Zhu Y, Wu Y, Zhang Q, Li D, Shen S, Tan D, Bai F, Zhang H. Mapping the spreading routes of lymphatic metastases in human colorectal cancer. Nature Communications.2020  <br>
+        Li R#, Li X#, Xue R#, Yang F#, Wang S, Li Y, Shen D, Sun K, Chen K, Weng W, Bai F, Wang J. Early metastasis detected in patients with multifocal pulmonary ground-glass opacities (GGOs). Thorax. 2018
+        <a href="javascript:;" onclick="hidden_person(xueruidong)">Close</a>
+    </div>
+    <div id="yanghui" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(yanghui)">Close</a>
+    </div>
+    <div id="haotingting" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(haotingting)">Close</a>
+    </div>
+    <div id="caoqi" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(caoqi)">Close</a>
+    </div>
+    <div id="chenxuechun" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(chenxuechun)">Close</a>
+    </div>
+    <div id="yanshuai" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(yanshuai)">Close</a>
+    </div>
+    <div id="liuhengkang" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(liuhengkang)">Close</a>
+    </div>
+    <div id="chengjinhui" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(chengjinhui)">Close</a>
+    </div>
+    <div id="fengmei" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(fengmei)">Close</a>
+    </div>
+    <div id="liuxinyu" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(liuxinyu)">Close</a>
+    </div>
+    <div id="wangfangyanni" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(wangfangyanni)">Close</a>
+    </div>
+    <div id="wangyinuo" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(wangyinuo)">Close</a>
+    </div>
+    <div id="tianliangliang" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(tianliangliang)">Close</a>
+    </div>
+    <div id="lijiaxin" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(lijiaxin)">Close</a>
+    </div>
+    <div id="tangzongli" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(tangzongli)">Close</a>
+    </div>
+    <div id="changyiyuan" class="white_content"> 
+        <a href="javascript:;" onclick="hidden_person(changyiyuan)">Close</a>
+    </div>
+    
+
+    <!-- 创建一个页脚 -->
+    <footer>
+        <div class="builder">
+            Made by TangZongli in Zhanglab
+            1810305334@pku.edu.cn
+        </div>
+    </footer>
+
+
+    <script src="./js/left-menu.js"></script>
+    
+    <script src="./js/show_hidden.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+.contact {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.contact .map-wrapper {
+  width: 100%;
+  height: 500px;
+  margin: 0 auto;
+}
+.contact .map-wrapper .map {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.contact .map-wrapper .map iframe {
+  width: 100%;
+  height: 100%;
+}
+.contact .message {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+.contact .message .info {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  font-size: 24px;
+}
+@media all {
+}
+@media all and (max-width: 768px) {
+  .message {
+    flex-direction: column;
+  }
+}

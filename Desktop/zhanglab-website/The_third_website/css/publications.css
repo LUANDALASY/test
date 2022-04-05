@@ -1,0 +1,25 @@
+.addition {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.publications {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.publications .article {
+  width: 90%;
+  margin: 20px auto;
+  font-family: 'Times New Roman', '宋体', Times, serif;
+  font-size: 20px;
+}
+.publications .article a {
+  font-weight: bolder;
+}

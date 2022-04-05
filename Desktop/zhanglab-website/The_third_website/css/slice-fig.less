@@ -1,0 +1,86 @@
+#outer{
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    margin-bottom: 50px;
+    margin-bottom: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+#imgList{
+    /* width: 2500px; */
+    list-style: none;
+    float: left;
+    position: absolute;
+    left: 0px;
+}
+#imgList li{
+    float: left;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#imgList li a{
+    display: block;
+    width: 400px;
+    height: 200px;
+}
+#imgList li img{
+    width: 400px;
+}
+
+#navDiv{
+    position: absolute;
+    bottom: 25px;
+    /* left: 210px; */
+    /* 计算left，520-25*4 = 420/2 = 210px */
+}
+#navDiv a{
+    float: left;
+    
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    margin:0 5px;
+    opacity: .7;
+}
+
+/* 设置鼠标移入效果 */
+#navDiv a:hover{
+    background-color: black;
+}
+
+@media all{
+    // 断点768px
+    @media (min-width:768px){
+        #outer{
+            width: 1000px;
+            height: 450px;
+            margin: 50px auto;
+        }
+        #imgList li{
+            width: 1000px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+        #imgList li a{
+            
+            width: 1000px;
+            height: 400px;
+        }
+        #imgList li img{
+            width: 1000px;
+        }
+        #navDiv{
+            bottom: 25px;
+            /* left: 210px; */
+            /* 计算left，520-25*4 = 420/2 = 210px */
+        }
+    }
+}
+
